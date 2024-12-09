@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Главная</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      </head>
+    
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Сеть частных детских садов Sunshine</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gartens">Наши сады</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/credits">Аккредитация</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <style>
+
+    /* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(var(--bs-tertiary-color-rgb));
+  }
+  
+  
+  .carousel-item img {
+    max-height: 600px; /* Установите желаемую высоту */
+    object-fit: cover; /* Чтобы изображение не искажалось */
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+
+  </style>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdna.artstation.com/p/assets/images/images/049/363/036/large/jan-kejr-demonstration-01.jpg?1652309919" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Добро пожаловать в Sunshine!</h5>
+              <p>Sunshine - сеть частных детских садов для ваших малышей.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://digiseller.mycdn.ink/preview/319113/p1_3663802_da2fc208.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Современный ремонт</h5>
+              <p>В наших садах всегда есть много разнообразных комнат и даже бассейн!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/052/749/537/large/james-gaitley-funhallwaypost.jpg?1660586352" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Веселая атмосфера</h5>
+              <p>Ваши дети никогда не заскучают!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<br>
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="https://i.scdn.co/image/ab67616d0000b273f080f366a8186c65f821eb94" class="img rounded-circle"  width="140" height="140" alt="...">
+        <h2 class="fw-normal">Мы - профессионалы</h2>
+        <p>Наши воспитатели и няни - лучшие в своем деле. Весь персонал прошел специальные курсы и аккредитацию для работы с детьми.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://media.tenor.com/PpRPqIaayhsAAAAe/albert-einstein-nikola-tesla.png" class="img rounded-circle"  width="140" height="140" alt="...">
+        <h2 class="fw-normal">Интеллектуальное развитие</h2>
+        <p>Мы пожем вашему ребенку достичь высот и подготовим его школе.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://i.ytimg.com/vi/xJQPCwOm3dk/maxresdefault.jpg" class="img rounded-circle"  width="140" height="140" alt="...">
+        <h2 class="fw-normal">Горячее питание</h2>
+        <p>Sunshine ответсвенно относится к обеспечению подопечных качественным горячим питанием.</p>
+
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Современные корпуса. <span class="text-body-secondary">Ваши дети будут рады.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://s.ura.news/760/images/news/upload/articles/265/370/1036265370/137551_V_poiskah_pitochnoy_u_gorodskogo_GIBDD_Ekaterinburg_podval_bomboubezhishte_5533.3698.0.0.jpg" class="img-fluid mx-auto" width="500" height="500" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Активности для ваших детей. <span class="text-body-secondary">Никто не заскучает!</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="https://images.techinsider.ru/upload/img_cache/62b/62b8c3e070b9db05fbb6424d0b16b3a5_cropped_666x375.jpg" class="img-fluid mx-auto" width="500" height="500" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Обучение и подготовка к школе. <span class="text-body-secondary">Ваши дети станут гениями.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfRRZKUjc0Jiw1l80vt7--xD_Clcb9z1yfQ&s" class="img-fluid mx-auto" width="500" height="500" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p>&copy; 2017–2024 218 GANG, Inc. &middot; <a href="https://surpk.ru/">Privacy</a> &middot; <a href="https://surpk.ru/">Terms</a></p>
+  </footer>
+</main>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
